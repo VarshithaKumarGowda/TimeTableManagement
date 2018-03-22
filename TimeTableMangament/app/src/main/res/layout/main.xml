@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/backgroundnew">
+
+
+    <Button
+        android:id="@+id/buttonSignIN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@android:color/transparent"
+        android:text="Student"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Student" />
+
+    <Button
+        android:id="@+id/buttonSignUP"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@android:color/transparent"
+        android:text="Teacher" />
+
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:onClick="register"
+        android:text="Admin" />
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:paddingTop="125px"
+      android:background="@drawable/backgroundnew"
+    >
+<EditText 
+	android:id="@+id/Username"
+	android:hint="Subject Code"
+	android:layout_width="350px"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+>
+<requestFocus></requestFocus>
+</EditText>
+<EditText 
+		android:id="@+id/Password"
+		android:password="true"
+		android:paddingTop="20px"
+		android:layout_height="wrap_content" 
+		android:hint="Password" 
+		android:layout_width="350px" 
+		android:layout_gravity="center">
+  </EditText>
+
+	<Button
+		android:id="@+id/sin"
+		android:layout_width="134dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:clickable="true"
+		android:onClick="home"
+		android:paddingTop="20px"
+		android:text="Sign in"
+
+		/>
+
+	<Button
+		android:layout_width="150px"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:clickable="true"
+		android:onClick="register"
+		android:text="Admin"
+		android:visibility="gone" />
+
+	<Button
+		android:id="@+id/back"
+		android:layout_width="134dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:clickable="true"
+		android:onClick="Back"
+		android:paddingTop="20px"
+		android:text="Back" />
+</LinearLayout>

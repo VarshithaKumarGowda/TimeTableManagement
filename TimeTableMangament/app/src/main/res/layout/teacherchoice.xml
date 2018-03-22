@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+
+<Button
+        android:id="@+id/classes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Class and Batches" />
+
+    <Button
+        android:id="@+id/manage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage" />
+</LinearLayout>

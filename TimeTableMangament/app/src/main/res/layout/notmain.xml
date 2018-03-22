@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:color="#ffe4c4"
+    android:background="@drawable/backgroundnew">
+
+
+    <Button
+        android:id="@+id/buttonSignIN"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Write"
+        android:onClick="write_date"
+        android:layout_margin="10dip"/>
+
+
+    <Button
+        android:id="@+id/buttonSignUP"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Notify"
+        android:onClick="read_date"
+        android:layout_margin="10dip"/>
+
+</LinearLayout>

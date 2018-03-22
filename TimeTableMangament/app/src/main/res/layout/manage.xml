@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:paddingTop="200px"  
+     android:background="@drawable/backgroundnew"
+         >
+
+	<Button
+		android:id="@+id/button"
+		android:layout_width="240dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:onClick="classes_bacthes"
+		android:paddingTop="20px"
+		android:text="Classes and Batches" />
+
+	<Button
+		android:id="@+id/man_stu"
+		android:layout_width="241dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:clickable="true"
+		android:onClick="manage_stud"
+		android:paddingTop="20px"
+		android:text="Manage Students"
+
+		/>
+
+	<Button
+		android:id="@+id/sin"
+		android:layout_width="239dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:clickable="true"
+		android:onClick="mark_att"
+		android:paddingTop="20px"
+		android:text="Mark Attendance"
+
+		/>
+
+	<Button
+		android:id="@+id/view"
+		android:layout_width="239dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:clickable="true"
+		android:onClick="view_att"
+		android:paddingTop="20px"
+		android:text="View Attendance"
+
+		/>
+
+	<Button
+		android:id="@+id/view"
+		android:layout_width="242dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:clickable="true"
+		android:onClick="log_out"
+		android:paddingTop="20px"
+		android:text="Log Out"
+
+		/>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="activitylifecycle.example.com.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Class Schedular"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity" android:label="Home"/>
+        <activity android:name=".Record" android:label="Record"/>
+        <activity android:name=".Play" android:label="Play"/>
+        <activity android:name=".MainActivity" android:label="Main"/>
+        <activity android:name=".SignUPActivity" android:label="Sign"/>
+        <activity android:label="Class"   android:name=".ClassSchedulerActivity" />
+        <activity android:label="List Batch"   android:name=".ListBatchesActivity" />
+        <activity android:label="Batches Teacher"   android:name=".ListBatchesActivityTeacher" />
+        <activity android:label="Batches"   android:name=".ListClassesActivityTeacher" />
+        <activity android:label="Add Batch"   android:name=".AddBatchActivity" />
+        <activity android:label="List Classes"   android:name=".ListClassesActivity" />
+        <activity android:label="Add Class"   android:name=".AddClassActivity" />
+        <activity android:label="Update Batch"   android:name=".UpdateBatchActivity" />
+        <activity android:label="Update Class"   android:name=".UpdateClassActivity" />
+        <activity android:label="Update Class Teacher"   android:name=".UpdateClassActivityTeacher" />
+        <activity android:label="Student Manage"   android:name=".StudentMainActivity" />
+        <activity android:label="Notification"   android:name=".NotifyActivity" />
+        <activity android:label="Student Manage Student"   android:name=".NotifyActivityStudent" />
+        <activity android:label="Write Notification"   android:name=".Create_not" />
+        <activity android:label="Notification"   android:name=".Read_not" />
+        <activity android:name=".RegisterActivity" android:label="@string/app_name" />
+        <activity android:name=".TestActivity"  android:label="@string/app_name" />
+        <activity android:name=".ManageActivity"  android:label="@string/app_name" />
+        <activity android:name=".AttendanceActivity"  android:label="@string/app_name" />
+        <activity android:name=".Register_adminActivity"  android:label="@string/app_name" />
+        <activity android:name=".Admin_homeActivity"  android:label="@string/app_name" />
+        <activity android:name=".StudentActivity"  android:label="@string/app_name" />
+        <activity android:name=".FacultyActivity"  android:label="@string/app_name" />
+        <activity android:name=".ViewActivity"  android:label="@string/app_name" />
+        <activity android:name=".Attendance_homePage" android:label="@string/app_name"></activity>
+
+    </application>
+
+</manifest>
